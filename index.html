@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وصف المشروع</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Cairo", sans-serif;
+
+            background-image: url(../project-description/imag/looly.png);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 18px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            position: relative;
+        }
+
+        .container {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .container p {
+            font-size: 18px;
+            line-height: 1.9;
+            color: #333;
+            text-align: center;
+        }
+
+        /* ظل احترافي تحت البوكس */
+        .container::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -12px;
+            width: 70%;
+            height: 18px;
+            background: rgba(0, 0, 0, 0.12);
+            filter: blur(12px);
+            border-radius: 50%;
+        }
+
+        /* زر العودة */
+        .back-btn {
+            display: inline-block;
+            margin: 25px auto 0;
+            text-decoration: none;
+            background: black;
+            color: white;
+            padding: 12px 25px;
+            font-size: 17px;
+            border-radius: 10px;
+            transition: .3s;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .btn-center {
+            text-align: center;
+        }
+
+        .container_1 {
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            letter-spacing: 3px;
+            text-shadow: 0 0 8px #9370db, 0 0 15px #9370db;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container_1">
+        <h1>وصف المشروع</h1>
+    </div>
+    <div class="container">
+        <p>
+
+            الفكرة :ان المشروع ده عبارة عن صفحة ويب مصممة لعرض الخدمات أو المنتجات بشكل بسيط وسهل للعميل
+            بنضيف لك روابط واتساب وفيسبوك وإنستجرام والويبسايت الخاص بالبراند واي اضافات تانيه حابب تضيفها كمان.
+        </p>
+        <P>
+            المميزات:بنصمملك تصميم خفيف وسريع متجاوب مع الموبايل وألوان قابلة للتغيير حسب البراند وليك إمكانية تعديل
+            اللوجو والخلفية
+            وتعديل اي حاجه كمان متعجبكش ولو حابب كمان تضيف وصف او صور او اراء عملاء هنضيف لك اللي محتاجو
+        </P>
+        <P>
+            الهدف: العميل يشوف شكل realistic للصفحة قبل ما نعمل النسخة النهائية ليه.
+        </P>
+        <p>
+            مناسب لـ: (المشاريع الصغيرة، البيزنس المحلي، الصفحات التعريفية، أصحاب المنتجات...).
+
+        </p>
+    </div>
+    <div class="btn-center">
+        <a href="https://ase0099876-ship-it.github.io/projects/" class="back-btn">الرجوع لصفحة المشاريع</a>
+    </div>
+    </div>
+
+</body>
+
+</html>
